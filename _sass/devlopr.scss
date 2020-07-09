@@ -348,7 +348,7 @@ header {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin-top: -16px;;
+    padding-bottom: 1.3rem;
 }
 /* pagination */
 .pagination-link{
@@ -372,6 +372,7 @@ header {
 .jumbotron-heading{
     color: black;
     font-size: 35px;
+    margin-bottom: 0px;
 }
 
 .lead {
@@ -396,9 +397,9 @@ header {
 }
 
 /* floating btn for buy me coffee */
-#bmc-wbtn{
-    bottom: 40px !important;
-}
+// #bmc-wbtn{
+//     bottom: 40px !important;
+// }
 
 /* Disqus */
 #reactions .reaction-items .reaction-item .reaction-item__text, #reactions-promotion .reaction-items .reaction-item .reaction-item__text {
