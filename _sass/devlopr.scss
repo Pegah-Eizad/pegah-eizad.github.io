@@ -132,6 +132,7 @@ body {
     padding-left: 0px !important;
     padding-top: 20px !important;
     padding-right: 0px !important;
+    background-color: rgb(57, 57, 64);
 }
 
 .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
@@ -155,9 +156,9 @@ blockquote {
 /* Scrollbar */
 
  /* width */
- ::-webkit-scrollbar {
-    width: 10px;
- }
+//  ::-webkit-scrollbar {
+//     width: 10px;
+//  }
 
   /* Track */
   ::-webkit-scrollbar-track {
@@ -342,11 +343,12 @@ header {
 
 /* jumbotron */
 .jumbotron {
-    background-color: var(--main-background-color) !important;
+    background-color: #e9ecef;
     // background-image: url('https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    margin-top: -16px;;
 }
 /* pagination */
 .pagination-link{
@@ -368,14 +370,15 @@ header {
 }
 
 .jumbotron-heading{
-    color: white;
+    color: black;
     font-size: 35px;
 }
 
 .lead {
     font-size: 1.30rem !important;
     font-weight: 600;
-    color: white !important;
+    color: black;
+    margin-bottom: 0.5rem;
 }
 
 .fa {
@@ -461,11 +464,15 @@ header {
     margin-top: 100px !important;
 }
 
+#recent-articles {
+    padding-left: 20px;
+}
+
 #recent-articles-header{
     display: grid;
     width: 100%;
-    grid-template-columns: 17fr 2fr;
 }
+
 #article-img, #article-link, #article-alert{
     padding-left: 10px;
     padding-top: 10px;
@@ -567,6 +574,7 @@ header {
 
 .home-article-summary {
     margin-top: -60px;
+    background-color: rgb(57, 57, 64);
 }
 
 .blog-post {
@@ -707,9 +715,6 @@ footer {
                 white-space: nowrap;
 
             }
-            .jumbotron {
-                padding: 3rem 1rem !important;
-            }
 
 }
 
@@ -786,9 +791,6 @@ footer {
           white-space: nowrap;
           margin-left: -30px;
 
-      }
-      .jumbotron {
-          padding: 10rem 1rem !important;
       }
 
 }
