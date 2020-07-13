@@ -1,7 +1,7 @@
 title: Spilt Coffee Dev
-subtitle: A Jekyll Theme Built for Developers
+subtitle:
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a Jekyll Theme Built For Developers
+  
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -26,11 +26,11 @@ urls:
 
 author_logo: profile.jpg
 author: Pegah
-author_bio: I am a full stack web developer :D
+author_bio: I am a full stack web developer
 author_email: ""
 author_location: United States
 author_website_url: "http://johndoe.com"
-typewrite-text: I am a full stack web developer :D
+typewrite-text: I am a full stack web developer
 
 author_work_experiences:
             - company_name: Google

@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a{
-    color: var(--link-color) !important;
+    color: pink;
 }
 /* Navigation Header */
 header {
@@ -219,10 +219,10 @@ header {
 }
 
 .navbar-dark .navbar-brand {
-    color: #ff7601 !important;
+    color: pink !important;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: var(--nav-link-color) !important;
+    color: pink !important;
 }
 .navbar-dark .navbar-toggler {
     border-color:transparent !important;
@@ -343,8 +343,6 @@ header {
 
 /* jumbotron */
 .jumbotron {
-    background-color: #e9ecef;
-    // background-image: url('https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -370,16 +368,25 @@ header {
 }
 
 .jumbotron-heading{
-    color: black;
-    font-size: 35px;
-    margin-bottom: 0px;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 5px;
+    background-color: black;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px
 }
 
 .lead {
     font-size: 1.30rem !important;
     font-weight: 600;
-    color: black;
+    color: white;
+    background-color: black;
     margin-bottom: 0.5rem;
+    width: 350px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fa {
@@ -480,6 +487,7 @@ header {
     margin: 4px;
 }
 .recent-article-link{
+    color: pink;
     font-size: 20px;
     text-decoration: none;
 }
@@ -714,6 +722,7 @@ footer {
                 font-size: 1.25rem;
                 line-height: inherit;
                 white-space: nowrap;
+                color: pink;
 
             }
 
