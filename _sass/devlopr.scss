@@ -347,6 +347,7 @@ header {
     background-size: cover;
     background-position: center;
     padding-bottom: 1.3rem;
+    background-color: rgb(57, 57, 64) !important;
 }
 /* pagination */
 .pagination-link{
@@ -378,13 +379,19 @@ header {
     margin-top: 10px
 }
 
+.lead-container {
+    width: 330px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .lead {
     font-size: 1.30rem !important;
     font-weight: 600;
     color: white;
     background-color: black;
     margin-bottom: 0.5rem;
-    width: 350px; 
+    width: 330px; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -486,6 +493,13 @@ header {
     padding-top: 10px;
     margin: 4px;
 }
+
+#article-img {
+    img {
+        transform: rotate(20deg);
+    }
+}
+
 .recent-article-link{
     color: pink;
     font-size: 20px;

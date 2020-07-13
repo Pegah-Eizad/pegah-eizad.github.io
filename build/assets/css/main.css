@@ -93,7 +93,7 @@ header { background-color: var(--main-background-color); box-shadow: 0px; height
 .snipcart-payment-methods__title { background-color: black !important; }
 
 /* jumbotron */
-.jumbotron { background-attachment: fixed; background-size: cover; background-position: center; padding-bottom: 1.3rem; }
+.jumbotron { background-attachment: fixed; background-size: cover; background-position: center; padding-bottom: 1.3rem; background-color: #393940 !important; }
 
 /* pagination */
 .pagination-link { padding: 15px; background-color: var(--card-background-color); text-decoration: none; }
@@ -104,7 +104,9 @@ header { background-color: var(--main-background-color); box-shadow: 0px; height
 
 .jumbotron-heading { color: white; font-size: 25px; margin-bottom: 5px; background-color: black; width: 300px; margin-left: auto; margin-right: auto; margin-top: 10px; }
 
-.lead { font-size: 1.30rem !important; font-weight: 600; color: white; background-color: black; margin-bottom: 0.5rem; width: 350px; margin-left: auto; margin-right: auto; }
+.lead-container { width: 330px; margin-left: auto; margin-right: auto; }
+
+.lead { font-size: 1.30rem !important; font-weight: 600; color: white; background-color: black; margin-bottom: 0.5rem; width: 330px; margin-left: auto; margin-right: auto; }
 
 .fa { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: 25px; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
@@ -146,6 +148,8 @@ header { background-color: var(--main-background-color); box-shadow: 0px; height
 #recent-articles-header { display: grid; width: 100%; }
 
 #article-img, #article-link, #article-alert { padding-left: 10px; padding-top: 10px; margin: 4px; }
+
+#article-img img { transform: rotate(20deg); }
 
 .recent-article-link { color: pink; font-size: 20px; text-decoration: none; }
 
