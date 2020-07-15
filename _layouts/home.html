@@ -13,8 +13,9 @@ layout: default
       <img class="author-profile-img" src="/assets/img/profile.jpg" />
       <p class="jumbotron-heading">Hi, I'm {{site.author}}!</p>
       <div class="lead-container"><p class="lead" id="typewriteText"></p></div>
-      {% if site.github_username %} {%- include github_follow_button.html -%} {%
-      endif %}
+      {% if site.github_username %} 
+         <a href="https://twitter.com/spiltcofeedev?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @spiltcofeedev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      {%endif %}
     </div>
     <div class="col-lg-8 offset-md-2 home-article-summary">
       <section id="recent-articles">
