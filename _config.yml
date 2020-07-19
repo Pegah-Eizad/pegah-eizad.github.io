@@ -26,7 +26,7 @@ urls:
 
 author_logo: icon.svg
 author: Pegah
-author_bio: I am a full stack web developer
+author_bio: I'm a software consultant and Full Stack Web Developer Dizzy symbol My passions are Web and Mobile UI development ⚡ App Architecture ⚡ business development and strategy ⚡ 
 author_email: ""
 author_location: United States
 author_website_url: "http://johndoe.com"
@@ -55,16 +55,16 @@ author_education_details:
                 visibility: true
 
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+              - project_thumbnail: Redackt-hooks.png
+                project_title: Slacker Reddit
+                project_description: A slack skin for Reddit
+                project_url: https://github.com/Pegah-Eizad/Redackt-with-Hooks
                 visibility: true
               - project_thumbnail: hack4r.PNG
                 project_title: Hack4r
                 project_description: A Platform built for Hackers and Penetration Testers
                 project_url: https://hack4r.com
-                visibility: true
+                visibility: false
 
 # social links
 twitter_username: johndoe
