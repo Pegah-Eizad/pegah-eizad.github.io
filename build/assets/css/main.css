@@ -50,6 +50,10 @@ header { background-color: var(--main-background-color); box-shadow: 0px; height
 
 .card { margin: 20px !important; padding: 20px !important; padding-left: 35px !important; background-color: var(--card-background-color) !important; }
 
+.card-body, .card-header { color: white; }
+
+.post-title { color: white !important; }
+
 .article-wrapper { padding: 20px !important; background-color: var(--card-background-color) !important; }
 
 #topNav { padding-left: 100px; padding-right: 100px; background-color: var(--main-background-color) !important; box-shadow: #000 0px 0px 8px; }

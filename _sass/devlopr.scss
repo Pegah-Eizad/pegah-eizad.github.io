@@ -224,6 +224,14 @@ header {
     background-color: var(--card-background-color) !important;
 }
 
+.card-body, .card-header {
+    color: white;
+}
+
+.post-title {
+    color: white !important;
+}
+
 .article-wrapper {
     padding: 20px !important;
     background-color: var(--card-background-color) !important;
