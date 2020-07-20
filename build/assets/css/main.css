@@ -58,7 +58,7 @@ header { background-color: var(--main-background-color); box-shadow: 0px; height
 
 .navbar-dark .navbar-brand { color: pink !important; }
 
-.navbar-dark .navbar-nav .nav-link { color: pink !important; }
+.navbar-dark .navbar-nav .nav-link { color: pink !important; margin-left: 10px !important; }
 
 .navbar-dark .navbar-toggler { border-color: transparent !important; }
 
@@ -165,7 +165,7 @@ header { background-color: var(--main-background-color); box-shadow: 0px; height
 
 .article-card { list-style-type: none; }
 
-.article-card a :hover { text-decoration: none; background: #303030 !important; border-color: #303030; background: transparent; }
+.article-card a :hover { text-decoration: none; border-color: #303030; background: transparent; }
 
 @media (min-width: 768px) { .offset-md-1 { margin-left: 3.333333% !important; } }
 
@@ -186,6 +186,8 @@ header { background-color: var(--main-background-color); box-shadow: 0px; height
 #profile-card #navigation { margin-top: 50px; }
 
 #profile-card .nav-link { font-size: 15px !important; color: var(--main-text-color); font-weight: 600; }
+
+#profile-card .navbar-nav .nav-link { margin-left: 10px !important; }
 
 #author_projects .project-img { width: 300px; height: 200px; }
 

@@ -245,6 +245,7 @@ header {
 }
 .navbar-dark .navbar-nav .nav-link {
     color: pink !important;
+    margin-left: 10px !important;
 }
 .navbar-dark .navbar-toggler {
     border-color:transparent !important;
@@ -549,7 +550,7 @@ header {
 }
 .article-card a :hover{
     text-decoration: none;
-    background: #303030!important;
+    // background: #303030!important;
     border-color: #303030;
     background: transparent;
 }
@@ -598,13 +599,20 @@ header {
     #navigation{
         margin-top:50px;
     }
+
     .nav-link {
         font-size: 15px !important;
         color: var(--main-text-color);
         font-weight: 600;
+       
+    }
+
+    .navbar-nav .nav-link {
+        margin-left: 10px !important;
     }
 
 }
+
 
 #author_projects {
     .project-img {
