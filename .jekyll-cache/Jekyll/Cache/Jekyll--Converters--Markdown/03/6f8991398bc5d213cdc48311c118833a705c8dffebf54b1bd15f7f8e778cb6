@@ -1,4 +1,4 @@
-I"í<h3>   </h3>
+I"Y<h3>   </h3>
 
 <div id="categories">
 
@@ -10,6 +10,21 @@
      
     <article class="center">
       <h6><a href="/maintainability/2020/06/18/code-maintainability-over-speed/">SOFTWARE DEVELOPEMENT â€” Prioritizing speed over maintainability loses the race</a></h6>
+    </article>
+
+
+    
+    
+  </div>
+
+  <div class="category-box">
+    
+    <div id="#react"></div>
+    <h4 class="category-head"><a href="/blog/categories/react">react</a></h4>
+    <a name="react"></a>
+     
+    <article class="center">
+      <h6><a href="/react/2020/07/24/conditional-component-rendering-react/">Conditional Component Rendering in React</a></h6>
     </article>
 
 
