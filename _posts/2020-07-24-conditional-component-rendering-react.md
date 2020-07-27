@@ -11,9 +11,9 @@ thumbnail:
 ---
 
 Here are the best two ways to conditionally render Components in React's JSX
-without using the ugly if else. 
+without using the ugly ```if else```. 
 
-If you have an ```if else``` condition, use a ternary operator- 
+If you have an ```if else``` condition, use a ***ternary operator***- 
 You have cookbook app and you want to render ```<Food />``` if the user is looking for
 food recipes or ```<Drinks />``` if the user is looking for drink recipes.
 
