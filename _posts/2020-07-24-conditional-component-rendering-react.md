@@ -7,6 +7,7 @@ category:
         - react
 
 summary:
+thumbnail: jsx.png
 ---
 
 Here are the best two ways to conditionally render Components in React's JSX
