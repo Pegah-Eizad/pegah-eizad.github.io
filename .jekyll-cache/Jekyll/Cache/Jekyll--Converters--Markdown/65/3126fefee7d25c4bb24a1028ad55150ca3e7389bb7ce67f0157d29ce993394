@@ -1,7 +1,7 @@
-I"�<p>Here are the best two ways to conditionally render Components in React’s JSX
-without using the ugly if else.</p>
+I"$<p>Here are the best two ways to conditionally render Components in React’s JSX
+without using the ugly <code class="highlighter-rouge">if else</code>.</p>
 
-<p>If you have an <code class="highlighter-rouge">if else</code> condition, use a ternary operator- 
+<p>If you have an <code class="highlighter-rouge">if else</code> condition, use a <strong><em>ternary operator</em></strong>- 
 You have cookbook app and you want to render <code class="highlighter-rouge">&lt;Food /&gt;</code> if the user is looking for
 food recipes or <code class="highlighter-rouge">&lt;Drinks /&gt;</code> if the user is looking for drink recipes.</p>
 
@@ -18,6 +18,6 @@ For example you wanna display the user’s favorite recipes IF they have any.</p
  <code class="highlighter-rouge">&amp;&amp;</code> is the JavaScript logical “and” and will check each expression in order. 
  So in our case, it will check if the user has any favorites and if that 
  evaluates to True, it will execute what follows which is rendering
- <code class="highlighter-rouge">&lt;FavoriteRecipes /&gt;</code> . For rendering <code class="highlighter-rouge">&lt;FavoriteRecipes /&gt;</code>, the &amp;&amp; operator will
+ <code class="highlighter-rouge">&lt;FavoriteRecipes /&gt;</code> . For rendering <code class="highlighter-rouge">&lt;FavoriteRecipes /&gt;</code>, the <code class="highlighter-rouge">&amp;&amp;</code> operator will
  always evaluat to True as long as the component is there.</p>
 :ET

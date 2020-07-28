@@ -6,8 +6,7 @@ date: '2020-07-24 14:35:23 +0530'
 category:
         - react
 
-summary: 
-thumbnail:
+summary:
 ---
 
 Here are the best two ways to conditionally render Components in React's JSX
