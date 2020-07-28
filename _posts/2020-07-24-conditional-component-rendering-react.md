@@ -19,14 +19,14 @@ food recipes or ```<Drinks />``` if the user is looking for drink recipes.
 
 ![alt text](/assets/img/posts/jsx-ternary.png)
 
- note that ```isFood``` could be local component state or a prop. 
+note that ```isFood``` could be local component state or a prop. 
 
 If you have an If but not an else use the ```&&``` operator-
 For example you wanna display the user's favorite recipes IF they have any. 
 
 ![alt text](/assets/img/posts/jsx-and.png)
 
- Where favorites either comes from local state or a prop. 
+ Where ```favorites``` either comes from local state or a prop. 
  ```&&``` is the JavaScript logical "and" and will check each expression in order. 
  So in our case, it will check if the user has any favorites and if that 
  evaluates to True, it will execute what follows which is rendering 
