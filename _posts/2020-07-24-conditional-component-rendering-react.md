@@ -31,4 +31,4 @@ For example you wanna display the user's favorite recipes IF they have any.
  So in our case, it will check if the user has any favorites and if that 
  evaluates to True, it will execute what follows which is rendering 
  ```<FavoriteRecipes />``` . For rendering ```<FavoriteRecipes />```, the ```&&``` operator will
- always evaluat to True as long as the component is there. 
+ always evaluate to True as long as the component is there. 
