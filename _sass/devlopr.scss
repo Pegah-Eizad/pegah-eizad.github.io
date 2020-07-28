@@ -543,6 +543,12 @@ header {
     width: 100%;
 }
 
+#article-link {
+    width: 150%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #article-img, #article-link, #article-alert{
     padding-left: 10px;
     padding-top: 10px;
@@ -553,6 +559,10 @@ header {
     img {
         transform: rotate(30deg);
     }
+}
+
+.recent-articles-title {
+    text-align: center;
 }
 
 .recent-article-link{
@@ -660,7 +670,8 @@ header {
 
 .home-article-summary {
     margin-top: -60px;
-    background-color: rgb(57, 57, 64);
+    // background-color: rgb(57, 57, 64);
+    background-color: var(--main-background-color) !important
 }
 
 .blog-row {
